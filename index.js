@@ -21,4 +21,5 @@ bot.on("message", function(message) {
 	}
 });
 
+//Discord Bot Login Function
 bot.login(Token);
