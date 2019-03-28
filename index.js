@@ -9,7 +9,7 @@ bot.on("ready", function() {
 	console.log("Successfully Connected to Discord, Bot is Ready!");
 });
 
-//Discord "On Message" Sub Process
+//Discord "On Message" Function
 bot.on("message", function(message) {
 	if (message.author.equals(bot.user)) return;
 	if (!message.content.startsWith(Prefix)) return;
